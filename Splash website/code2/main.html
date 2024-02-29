@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="../index.html"><img src="../images/homepage/nav-logo.png" alt="Splash Studio" class="nav-logo"></a>
+                <ul class="nav-list">
+                    <a href="../code/index.html#case-text" class="nav-list__link"><li class="nav-list__item">кейсы</li></a>
+                    <a href="../code/index.html#process" class="nav-list__link"><li class="nav-list__item">процесс</li></a>
+                    <a href="https://t.me/splashstudio" target="_blank" class="nav-list__link"><li class="nav-list__item">блог</li></a>
+                </ul>
+                <a href="#!" class="nav-list__link_purple nav-list__item_purple">оставить заявку</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-343" id="nav">
+        <div class="container">
+            <div class="nav-row-343">
+                <ul class="nav-list-343">
+                    <a href="#case-text" class="nav-list__link-343"><li class="nav-list__item-343">кейсы</li></a>
+                    <a href="../index.html"><img src="../images/homepage/logo.svg" alt="" class="nav-logo-343"></a>
+                    <a href="https://t.me/splashstudio" target="_blank" class="nav-list__link-343"><li class="nav-list__item-343">блог</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="nav-fixed">
+        <div class="container">
+            <ul class="nav-fixed-list">
+                <a href="../index.html" class="nav-list-fixed__link"><li class="nav-list-fixed__item">главная</li></a>
+                <a href="../index.html#case-text" class="nav-list-fixed__link"><li class="nav-list-fixed__item">кейсы</li></a>
+                <a href="https://t.me/splashstudio" target="_blank" class="nav-list-fixed__link"><li class="nav-list-fixed__item">блог</li></a>       
+                <a href="#!" class="nav-list-fixed__link_purple"><li class="nav-list-fixed__item_purple">заявка</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="header-text">заполните бриф</h1>
+            <div class="header-subtext-row">
+                <p class="header-subtext">так мы сможем быстрее понять, что вам надо и подготовить материалы уже к первой встрече</p>
+                <p class="header-subtext-right">или напишите Сергею в <a href="https://t.me/sergedani" target="_blank">Telegram</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="brif">
+        <div class="container">
+            <form action="./telegram.php" method="post" class="brif-section-row" id="form">
+                <div class="brif-section-column">
+                    <input type="text" name="name" class="brif-section-name _req" placeholder="укажите имя">
+                    <input type="text" name="phone"  class="brif-section-number _req" placeholder="укажите телефон">
+                </div>
+                <div class="brif-section-column">
+                    <input type="email" name="email"  class="brif-section-email _req _email" placeholder="укажите email">
+                    <input type="text" name="company"  class="brif-section-nickname" placeholder="укажите название компании">
+                </div>
+                <textarea type="text" name="text"  class="brif-section-aboutWork" placeholder="опишите задачу, расскажите о проекте и укажите бюджет"></textarea>
+                <button type="submit" class="brif-section-btn">отправить заявку</button>
+                <p class="brif-section-btn-subtext">нажимая кнопку “отправить заявку” вы соглашаетесь с <a href="../images/ef85fe72f4d0f510.pdf">политикой конфиденциальности</a></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <div class="container">
+            <div class="footer-social-icons-row">
+                <a class="footer-social-item"><img src="../images/footer/footer-behance-logo.png" alt=""></a>
+                <a class="footer-social-item"><img src="../images/footer/footer-telegram-logo.png" alt=""></a>
+                <a class="footer-social-item"><img src="../images/footer/Vector.png" alt=""></a>
+            </div>
+            <div class="footer-contacts-row">
+                <a href="../index.html"><img src="../images/footer/footer-logo.png" alt="" class="footer-contacs-logo"></a>
+                <div class="footer-contacts-contact">
+                    <p class="footer-contact-contacts-text">контакты</p>
+                    <p class="footer-contact-contact-telephone-number">+7 988 597 83-82</p>
+                    <p class="footer-contacts-contact-email">splashbusiness.studio@gmail.com</p>
+                </div>
+                <div class="footer-contacts-present">
+                    <p class="footer-contacts-present-text">презентация</p>
+                    <a href="#!" class="footer-contacts-present-btn">смотреть</a>
+                </div>
+                <div class="footer-contacts-documents">
+                    <p class="footer-contacts-documents-text">документы</p>
+                    <p class="footer-contacts-documents-privacy-policy"><a href="!#">политика конфиденциальности</a></p>
+                </div>
+                <a href="../index.html"><img src="../images/homepage/accent_logo_3.svg" alt="" class="footer-contacs-logo-343"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../code2/scrollBrif.js"></script>
+    <script src="../code2/preloaderBrif.js"></script>
+</body>
+</html>
